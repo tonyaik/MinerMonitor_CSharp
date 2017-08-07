@@ -33,6 +33,7 @@ namespace Miner_Monitor
             int timer = 10000;
         }
 
+        // Clear text in textbox when clicked
         public void Textbox_Focus (object sender, RoutedEventArgs e)
         {
             TextBox tb = (TextBox)sender;
